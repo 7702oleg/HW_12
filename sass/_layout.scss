@@ -1,0 +1,48 @@
+body {
+  font-size: $layout-font-size;
+  font-family: $layout-font-family;
+  color: $layout-font-color;
+  background-color: #edeff1;
+  line-height: 1.7em;
+  text-align: center;
+}
+
+a {
+  color: $primary-color;
+}
+
+ul, li {
+  list-style: none;
+  }
+
+.macbook {
+  background: url("../images/macbook.png") no-repeat;
+  padding: 50px 0 300px 0;
+}
+
+.macbook>video {
+  text-align: center;
+}
+
+
+.creativity {
+  background: url("../images/fotolia_92120007_subscription_monthly_m.jpg" ) no-repeat;
+
+  p>a.btn {
+    margin-top: 355px;
+    margin-bottom: 195px;
+    width: 240px;
+    height: 60px;
+    background-color: #0149a1;
+    border-radius: 30px;
+    box-shadow: 0 0 133.6px 27.4px white;
+  }
+}
+textarea, button {
+  border-radius: 30px;
+}
+
+footer, .work {
+  background-color: #0149a1;
+  color: white;
+}
